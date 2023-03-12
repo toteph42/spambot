@@ -18,7 +18,7 @@
 		"spam",
 		"e-mailbot",
 		"e-mail",
-		"contao",
+		"contao"
 	],
 	"require" : {
 		"php" : ">=7.0",
