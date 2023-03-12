@@ -1,0 +1,42 @@
+{
+	"name" : "toteph42/spambot",
+	"type" : "contao-bundle",
+	"description" : "Block spam bot access to your Contao web site. ",
+	"license" : "GPL-3.0+",
+	"homepage" : "https://github.com/toteph42/spambot",
+	"authors" : [{
+			"name" : "Florian Daeumling",
+			"homepage" : "https://github.com/toteph42"
+		}
+	],
+	"keywords" : [
+		"spambot",
+		"httpbl",
+		"blacklist",
+		"whitelist",
+		"ham",
+		"spam",
+		"e-mailbot",
+		"e-mail",
+		"contao",
+	],
+	"require" : {
+		"php" : ">=7.0",
+		"contao/core-bundle" : ">=4.9.0"
+	},
+	"conflict" : {
+		"contao/manager-plugin" : "<2.0 || >=3.0"
+	},
+	"extra" : {
+		"contao-manager-plugin" : "SpamBotBundle\\ContaoManager\\Plugin"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"SpamBotBundle\\" : "src/"
+		}
+	},
+	"support" : {
+		"issues" : "https://github.com/toteph42/spambot/issues",
+		"source" : "https://github.com/toteph42/spambot"
+	}
+}

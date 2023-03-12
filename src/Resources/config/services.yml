@@ -1,0 +1,16 @@
+services:
+    SpamBotBundle\Module\SpamBotCron:
+      tags:
+        - { name: contao.cronjob, interval: daily, method: clearCache }
+        - { name: contao.cronjob, interval: hourly, method: loadData }
+      arguments:
+        - '@doctrine.dbal.default_connection'
+    
+    _instanceof:
+        Contao\CoreBundle\Framework\FrameworkAwareInterface:
+            calls:
+                - ["setFramework", ["@contao.framework"]]
+
+        Symfony\Component\DependencyInjection\ContainerAwareInterface:
+            calls:
+                - ["setContainer", ["@service_container"]]
