@@ -71,7 +71,7 @@ Allow access for selected countries.
 
 Please enjoy!
 
-If you like my software, I would be happy to get a donation.
+If you enjoy my software, I would be happy to receive a donation.
 
 <a href="https://www.paypal.com/donate/?hosted_button_id=DS6VK49NAFHEQ" target="_blank" rel="noopener">
   <img src="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal"/>
