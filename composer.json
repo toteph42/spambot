@@ -26,7 +26,7 @@
 	},
 	"conflict" : {
 		"contao/manager-plugin" : "<2.0 || >=3.0",
-		"contao/managed-edition": ">=5",
+		"contao/managed-edition": ">=5"
 	},
 	"extra" : {
 		"contao-manager-plugin" : "SpamBotBundle\\ContaoManager\\Plugin"
