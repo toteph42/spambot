@@ -25,7 +25,8 @@
 		"contao/core-bundle" : ">=4.9.0"
 	},
 	"conflict" : {
-		"contao/manager-plugin" : "<2.0 || >=3.0"
+		"contao/manager-plugin" : "<2.0 || >=3.0",
+		"contao/managed-edition": ">=5",
 	},
 	"extra" : {
 		"contao-manager-plugin" : "SpamBotBundle\\ContaoManager\\Plugin"
